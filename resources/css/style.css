@@ -1,7 +1,42 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
 /*Header Section*/
 
+header {
+  display: flex;
+  position: fixed;
+  padding: 0px;
+  top: 0px;
+  width: 100%;
+  height: 69px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.navbar a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  padding: 0px 10px;
+}
 
 /*Main Body*/
-
+main {
+  padding-top: 69px;
+}
 
 /*Footer Section*/
