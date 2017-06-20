@@ -18,6 +18,13 @@ header {
   height: 69px;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+
 }
 
 .navbar {
@@ -36,7 +43,132 @@ header {
 
 /*Main Body*/
 main {
-  padding-top: 69px;
+  padding-top: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/*Mission*/
+.box1 {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner h2,
+.banner h4 {
+  margin: 10px;
+}
+
+/*Featured Teas*/
+.box2 {
+  display: flex;
+  width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.teabox {
+  margin: 10px;
+}
+
+.tea {
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+}
+
+.teacap {
+  width: 300px;
+}
+
+.tea h4 {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+}
+
+#tea1 {
+  background-image: url("../images/img-berryblitz.jpg");
+}
+
+#tea2 {
+  background-image: url("../images/img-spiced-rum.jpg")
+}
+
+#tea3 {
+    background-image: url("../images/img-donut.jpg")
+}
+
+#tea4 {
+  background-image: url("../images/img-myrtle-ave.jpg")
+}
+
+#tea5 {
+  background-image: url("../images/img-bedford-bizarre.jpg")
+}
+
+/*Locations*/
+.box3 {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 1200px;
+  margin: 5px;
+}
+
+.subbox3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 10px;
+}
+
+/*Contact Info*/
+.box4 h2 {
+  margin: 5px;
+}
+
+.contact {
+  height: 200px;
+  width: 1200px;
 }
 
 /*Footer Section*/
+footer p {
+  padding-left: 20px;
+  text-align: left;
+}
